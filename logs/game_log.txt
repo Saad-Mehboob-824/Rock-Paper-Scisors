@@ -1,0 +1,819 @@
+2025-05-14 07:24:41,814 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 07:24:42,881 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 07:24:57,586 - INFO - Model 'best_model.keras' loaded successfully.
+2025-05-14 07:25:05,483 - INFO - Game started.
+2025-05-14 07:25:20,566 - INFO - Saved ROI: logs\debug_roi_20250514_072520_round1_conf0.60_unknown.jpg
+2025-05-14 07:25:20,599 - INFO - Prediction raw: [[0.132986   0.26536062 0.60165334]], Player chose: unknown, Confidence: 0.6017
+2025-05-14 07:25:20,599 - INFO - Round 1 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-14 07:25:34,083 - INFO - Starting Round 2
+2025-05-14 07:25:37,582 - INFO - Saved ROI: logs\debug_roi_20250514_072537_round2_conf1.00_scissors.jpg
+2025-05-14 07:25:37,582 - INFO - Prediction raw: [[2.3045263e-04 1.7294664e-05 9.9975222e-01]], Player chose: scissors, Confidence: 0.9998
+2025-05-14 07:25:37,583 - INFO - Round 2 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-14 07:25:45,152 - INFO - Starting Round 3
+2025-05-14 07:25:48,619 - INFO - Saved ROI: logs\debug_roi_20250514_072548_round3_conf0.67_unknown.jpg
+2025-05-14 07:25:48,619 - INFO - Prediction raw: [[0.32339582 0.0056164  0.67098784]], Player chose: unknown, Confidence: 0.6710
+2025-05-14 07:25:48,619 - INFO - Round 3 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 07:25:55,330 - INFO - Game finished. Final Score: Player 1, Computer 0
+2025-05-14 07:25:56,034 - INFO - New game started.
+2025-05-14 07:26:00,309 - INFO - Saved ROI: logs\debug_roi_20250514_072600_round1_conf0.80_paper.jpg
+2025-05-14 07:26:00,309 - INFO - Prediction raw: [[0.80281883 0.00901851 0.18816271]], Player chose: paper, Confidence: 0.8028
+2025-05-14 07:26:00,310 - INFO - Round 1 result: Player=paper, Computer=paper, Winner=Draw
+2025-05-14 07:26:11,137 - INFO - Starting Round 2
+2025-05-14 07:26:14,676 - INFO - Saved ROI: logs\debug_roi_20250514_072614_round2_conf0.98_scissors.jpg
+2025-05-14 07:26:14,677 - INFO - Prediction raw: [[0.02068086 0.00194476 0.9773744 ]], Player chose: scissors, Confidence: 0.9774
+2025-05-14 07:26:14,677 - INFO - Round 2 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-14 07:26:17,807 - INFO - Starting Round 3
+2025-05-14 07:26:21,327 - INFO - Saved ROI: logs\debug_roi_20250514_072621_round3_conf0.79_scissors.jpg
+2025-05-14 07:26:21,327 - INFO - Prediction raw: [[0.2009732  0.00978173 0.789245  ]], Player chose: scissors, Confidence: 0.7892
+2025-05-14 07:26:21,328 - INFO - Round 3 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-14 07:26:24,338 - INFO - Game finished. Final Score: Player 0, Computer 0
+2025-05-14 07:26:24,641 - INFO - New game started.
+2025-05-14 07:26:28,384 - INFO - Saved ROI: logs\debug_roi_20250514_072628_round1_conf0.45_unknown.jpg
+2025-05-14 07:26:28,385 - INFO - Prediction raw: [[0.3272443  0.45326906 0.21948661]], Player chose: unknown, Confidence: 0.4533
+2025-05-14 07:26:28,385 - INFO - Round 1 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 07:26:32,030 - INFO - Starting Round 2
+2025-05-14 07:26:35,530 - INFO - Saved ROI: logs\debug_roi_20250514_072635_round2_conf0.96_scissors.jpg
+2025-05-14 07:26:35,531 - INFO - Prediction raw: [[0.02631021 0.00988474 0.96380514]], Player chose: scissors, Confidence: 0.9638
+2025-05-14 07:26:35,531 - INFO - Round 2 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 07:26:38,465 - INFO - Starting Round 3
+2025-05-14 07:26:42,222 - INFO - Saved ROI: logs\debug_roi_20250514_072642_round3_conf0.96_scissors.jpg
+2025-05-14 07:26:42,223 - INFO - Prediction raw: [[0.03611476 0.00380979 0.96007544]], Player chose: scissors, Confidence: 0.9601
+2025-05-14 07:26:42,223 - INFO - Round 3 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-14 07:26:45,005 - INFO - Game finished. Final Score: Player 0, Computer 1
+2025-05-14 07:26:45,296 - INFO - New game started.
+2025-05-14 07:26:49,059 - INFO - Saved ROI: logs\debug_roi_20250514_072649_round1_conf0.99_scissors.jpg
+2025-05-14 07:26:49,059 - INFO - Prediction raw: [[9.1271298e-03 8.3545712e-04 9.9003744e-01]], Player chose: scissors, Confidence: 0.9900
+2025-05-14 07:26:49,060 - INFO - Round 1 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-14 07:26:50,563 - INFO - Starting Round 2
+2025-05-14 07:26:54,070 - INFO - Saved ROI: logs\debug_roi_20250514_072654_round2_conf0.88_rock.jpg
+2025-05-14 07:26:54,071 - INFO - Prediction raw: [[1.16100706e-01 8.83852065e-01 4.72749052e-05]], Player chose: rock, Confidence: 0.8839
+2025-05-14 07:26:54,071 - INFO - Round 2 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:26:56,697 - INFO - Starting Round 3
+2025-05-14 07:27:00,252 - INFO - Saved ROI: logs\debug_roi_20250514_072700_round3_conf0.60_unknown.jpg
+2025-05-14 07:27:00,253 - INFO - Prediction raw: [[6.0198396e-01 3.9787436e-01 1.4170475e-04]], Player chose: unknown, Confidence: 0.6020
+2025-05-14 07:27:00,253 - INFO - Round 3 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 07:27:03,029 - INFO - Game finished. Final Score: Player 1, Computer 0
+2025-05-14 07:27:03,425 - INFO - New game started.
+2025-05-14 07:27:07,413 - INFO - Saved ROI: logs\debug_roi_20250514_072707_round1_conf0.97_rock.jpg
+2025-05-14 07:27:07,414 - INFO - Prediction raw: [[0.01296385 0.9719902  0.01504591]], Player chose: rock, Confidence: 0.9720
+2025-05-14 07:27:07,414 - INFO - Round 1 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:27:09,265 - INFO - Starting Round 2
+2025-05-14 07:27:12,750 - INFO - Saved ROI: logs\debug_roi_20250514_072712_round2_conf0.80_rock.jpg
+2025-05-14 07:27:12,750 - INFO - Prediction raw: [[0.19493616 0.8030799  0.00198395]], Player chose: rock, Confidence: 0.8031
+2025-05-14 07:27:12,750 - INFO - Round 2 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 07:27:15,826 - INFO - Starting Round 3
+2025-05-14 07:27:19,347 - INFO - Saved ROI: logs\debug_roi_20250514_072719_round3_conf1.00_paper.jpg
+2025-05-14 07:27:19,348 - INFO - Prediction raw: [[9.9965096e-01 1.9704191e-04 1.5203177e-04]], Player chose: paper, Confidence: 0.9997
+2025-05-14 07:27:19,348 - INFO - Round 3 result: Player=paper, Computer=rock, Winner=Player
+2025-05-14 07:27:21,056 - INFO - Game finished. Final Score: Player 2, Computer 1
+2025-05-14 07:27:21,580 - INFO - New game started.
+2025-05-14 07:27:25,641 - INFO - Saved ROI: logs\debug_roi_20250514_072725_round1_conf1.00_paper.jpg
+2025-05-14 07:27:25,642 - INFO - Prediction raw: [[9.9992692e-01 3.1471066e-06 6.9978771e-05]], Player chose: paper, Confidence: 0.9999
+2025-05-14 07:27:25,642 - INFO - Round 1 result: Player=paper, Computer=rock, Winner=Player
+2025-05-14 07:27:29,043 - INFO - Starting Round 2
+2025-05-14 07:27:32,493 - INFO - Saved ROI: logs\debug_roi_20250514_072732_round2_conf1.00_paper.jpg
+2025-05-14 07:27:32,493 - INFO - Prediction raw: [[9.9999976e-01 1.7178097e-07 1.5879903e-07]], Player chose: paper, Confidence: 1.0000
+2025-05-14 07:27:32,494 - INFO - Round 2 result: Player=paper, Computer=paper, Winner=Draw
+2025-05-14 07:27:35,057 - INFO - Starting Round 3
+2025-05-14 07:27:38,713 - INFO - Saved ROI: logs\debug_roi_20250514_072738_round3_conf0.95_scissors.jpg
+2025-05-14 07:27:38,713 - INFO - Prediction raw: [[0.03373643 0.01429753 0.9519661 ]], Player chose: scissors, Confidence: 0.9520
+2025-05-14 07:27:38,714 - INFO - Round 3 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 07:27:42,324 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-14 07:27:42,949 - INFO - New game started.
+2025-05-14 07:27:46,657 - INFO - Saved ROI: logs\debug_roi_20250514_072746_round1_conf0.95_paper.jpg
+2025-05-14 07:27:46,657 - INFO - Prediction raw: [[0.9498646  0.03386932 0.01626593]], Player chose: paper, Confidence: 0.9499
+2025-05-14 07:27:46,658 - INFO - Round 1 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 07:27:50,275 - INFO - Starting Round 2
+2025-05-14 07:27:54,018 - INFO - Saved ROI: logs\debug_roi_20250514_072754_round2_conf0.40_unknown.jpg
+2025-05-14 07:27:54,018 - INFO - Prediction raw: [[0.3970947  0.30859923 0.29430604]], Player chose: unknown, Confidence: 0.3971
+2025-05-14 07:27:54,019 - INFO - Round 2 result: Player=unknown, Computer=rock, Winner=Unknown - Retry
+2025-05-14 07:27:56,530 - INFO - Starting Round 3
+2025-05-14 07:28:01,182 - INFO - Saved ROI: logs\debug_roi_20250514_072801_round3_conf0.92_scissors.jpg
+2025-05-14 07:28:01,183 - INFO - Prediction raw: [[0.0747433  0.00475581 0.92050093]], Player chose: scissors, Confidence: 0.9205
+2025-05-14 07:28:01,183 - INFO - Round 3 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-14 07:28:05,195 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-14 07:28:05,700 - INFO - New game started.
+2025-05-14 07:28:09,883 - INFO - Saved ROI: logs\debug_roi_20250514_072809_round1_conf0.79_paper.jpg
+2025-05-14 07:28:09,883 - INFO - Prediction raw: [[0.79422504 0.19208135 0.01369363]], Player chose: paper, Confidence: 0.7942
+2025-05-14 07:28:09,883 - INFO - Round 1 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 07:28:13,347 - INFO - Starting Round 2
+2025-05-14 07:28:16,910 - INFO - Saved ROI: logs\debug_roi_20250514_072816_round2_conf0.46_unknown.jpg
+2025-05-14 07:28:16,910 - INFO - Prediction raw: [[0.18151338 0.45882863 0.3596579 ]], Player chose: unknown, Confidence: 0.4588
+2025-05-14 07:28:16,910 - INFO - Round 2 result: Player=unknown, Computer=rock, Winner=Unknown - Retry
+2025-05-14 07:28:19,397 - INFO - Starting Round 3
+2025-05-14 07:28:22,931 - INFO - Saved ROI: logs\debug_roi_20250514_072822_round3_conf0.97_scissors.jpg
+2025-05-14 07:28:22,931 - INFO - Prediction raw: [[0.023352  0.0041799 0.9724681]], Player chose: scissors, Confidence: 0.9725
+2025-05-14 07:28:22,931 - INFO - Round 3 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 07:29:03,485 - INFO - Game finished. Final Score: Player 0, Computer 2
+2025-05-14 07:29:09,700 - INFO - New game started.
+2025-05-14 07:29:44,827 - INFO - Saved ROI: logs\debug_roi_20250514_072944_round1_conf0.98_paper.jpg
+2025-05-14 07:29:44,827 - INFO - Prediction raw: [[0.97911876 0.01937443 0.00150672]], Player chose: paper, Confidence: 0.9791
+2025-05-14 07:29:44,828 - INFO - Round 1 result: Player=paper, Computer=paper, Winner=Draw
+2025-05-14 07:29:47,446 - INFO - Starting Round 2
+2025-05-14 07:29:50,828 - INFO - Saved ROI: logs\debug_roi_20250514_072950_round2_conf0.70_unknown.jpg
+2025-05-14 07:29:50,829 - INFO - Prediction raw: [[0.6976544  0.30083957 0.001506  ]], Player chose: unknown, Confidence: 0.6977
+2025-05-14 07:29:50,829 - INFO - Round 2 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 07:29:53,467 - INFO - Starting Round 3
+2025-05-14 07:29:56,849 - INFO - Saved ROI: logs\debug_roi_20250514_072956_round3_conf0.52_unknown.jpg
+2025-05-14 07:29:56,850 - INFO - Prediction raw: [[0.47710803 0.51768565 0.0052063 ]], Player chose: unknown, Confidence: 0.5177
+2025-05-14 07:29:56,850 - INFO - Round 3 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 07:30:01,635 - INFO - Game finished. Final Score: Player 0, Computer 0
+2025-05-14 07:30:01,842 - INFO - New game started.
+2025-05-14 07:30:05,480 - INFO - Saved ROI: logs\debug_roi_20250514_073005_round1_conf0.99_rock.jpg
+2025-05-14 07:30:05,481 - INFO - Prediction raw: [[5.2406094e-03 9.9468970e-01 6.9742353e-05]], Player chose: rock, Confidence: 0.9947
+2025-05-14 07:30:05,481 - INFO - Round 1 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 07:30:07,780 - INFO - Starting Round 2
+2025-05-14 07:30:11,124 - INFO - Saved ROI: logs\debug_roi_20250514_073011_round2_conf0.61_unknown.jpg
+2025-05-14 07:30:11,124 - INFO - Prediction raw: [[0.3732812  0.6085225  0.01819636]], Player chose: unknown, Confidence: 0.6085
+2025-05-14 07:30:11,125 - INFO - Round 2 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 07:30:13,133 - INFO - Starting Round 3
+2025-05-14 07:30:16,570 - INFO - Saved ROI: logs\debug_roi_20250514_073016_round3_conf0.69_unknown.jpg
+2025-05-14 07:30:16,570 - INFO - Prediction raw: [[0.27241614 0.6916449  0.03593902]], Player chose: unknown, Confidence: 0.6916
+2025-05-14 07:30:16,570 - INFO - Round 3 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 07:30:19,390 - INFO - Game finished. Final Score: Player 0, Computer 0
+2025-05-14 07:30:19,777 - INFO - New game started.
+2025-05-14 07:30:23,318 - INFO - Saved ROI: logs\debug_roi_20250514_073023_round1_conf0.51_unknown.jpg
+2025-05-14 07:30:23,318 - INFO - Prediction raw: [[0.50541383 0.18014482 0.31444135]], Player chose: unknown, Confidence: 0.5054
+2025-05-14 07:30:23,318 - INFO - Round 1 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-14 07:30:29,954 - INFO - Starting Round 2
+2025-05-14 07:30:33,798 - INFO - Saved ROI: logs\debug_roi_20250514_073033_round2_conf0.67_unknown.jpg
+2025-05-14 07:30:33,799 - INFO - Prediction raw: [[0.6677296  0.261203   0.07106738]], Player chose: unknown, Confidence: 0.6677
+2025-05-14 07:30:33,799 - INFO - Round 2 result: Player=unknown, Computer=rock, Winner=Unknown - Retry
+2025-05-14 07:30:38,610 - INFO - Starting Round 3
+2025-05-14 07:30:42,051 - INFO - Saved ROI: logs\debug_roi_20250514_073042_round3_conf0.92_rock.jpg
+2025-05-14 07:30:42,052 - INFO - Prediction raw: [[0.07319555 0.92016166 0.00664279]], Player chose: rock, Confidence: 0.9202
+2025-05-14 07:30:42,052 - INFO - Round 3 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:30:43,955 - INFO - Game finished. Final Score: Player 1, Computer 0
+2025-05-14 07:30:44,161 - INFO - New game started.
+2025-05-14 07:34:11,772 - INFO - Saved ROI: logs\debug_roi_20250514_073411_round1_conf0.98_rock.jpg
+2025-05-14 07:34:11,773 - INFO - Prediction raw: [[1.7788719e-02 9.8214024e-01 7.1106952e-05]], Player chose: rock, Confidence: 0.9821
+2025-05-14 07:34:11,774 - INFO - Round 1 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:34:15,115 - INFO - Starting Round 2
+2025-05-14 07:34:18,508 - INFO - Saved ROI: logs\debug_roi_20250514_073418_round2_conf0.75_scissors.jpg
+2025-05-14 07:34:18,509 - INFO - Prediction raw: [[0.08995052 0.16003257 0.75001687]], Player chose: scissors, Confidence: 0.7500
+2025-05-14 07:34:18,509 - INFO - Round 2 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-14 07:34:21,652 - INFO - Starting Round 3
+2025-05-14 07:34:25,441 - INFO - Saved ROI: logs\debug_roi_20250514_073425_round3_conf0.96_paper.jpg
+2025-05-14 07:34:25,442 - INFO - Prediction raw: [[9.6210712e-01 3.7736781e-02 1.5605106e-04]], Player chose: paper, Confidence: 0.9621
+2025-05-14 07:34:25,442 - INFO - Round 3 result: Player=paper, Computer=paper, Winner=Draw
+2025-05-14 07:34:29,105 - INFO - Game finished. Final Score: Player 1, Computer 0
+2025-05-14 07:34:29,382 - INFO - New game started.
+2025-05-14 07:34:33,326 - INFO - Saved ROI: logs\debug_roi_20250514_073433_round1_conf1.00_rock.jpg
+2025-05-14 07:34:33,330 - INFO - Prediction raw: [[5.999861e-04 9.993973e-01 2.728626e-06]], Player chose: rock, Confidence: 0.9994
+2025-05-14 07:34:33,330 - INFO - Round 1 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:34:35,448 - INFO - Starting Round 2
+2025-05-14 07:34:39,009 - INFO - Saved ROI: logs\debug_roi_20250514_073439_round2_conf0.61_unknown.jpg
+2025-05-14 07:34:39,010 - INFO - Prediction raw: [[0.18735039 0.60739094 0.20525861]], Player chose: unknown, Confidence: 0.6074
+2025-05-14 07:34:39,011 - INFO - Round 2 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 07:34:44,273 - INFO - Starting Round 3
+2025-05-14 07:34:47,934 - INFO - Saved ROI: logs\debug_roi_20250514_073447_round3_conf0.96_rock.jpg
+2025-05-14 07:34:47,936 - INFO - Prediction raw: [[0.03200962 0.9619439  0.00604649]], Player chose: rock, Confidence: 0.9619
+2025-05-14 07:34:47,936 - INFO - Round 3 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:34:51,880 - INFO - Game finished. Final Score: Player 2, Computer 0
+2025-05-14 07:34:52,305 - INFO - New game started.
+2025-05-14 07:34:56,295 - INFO - Saved ROI: logs\debug_roi_20250514_073456_round1_conf0.52_unknown.jpg
+2025-05-14 07:34:56,296 - INFO - Prediction raw: [[0.51925266 0.47903767 0.00170962]], Player chose: unknown, Confidence: 0.5193
+2025-05-14 07:34:56,296 - INFO - Round 1 result: Player=unknown, Computer=rock, Winner=Unknown - Retry
+2025-05-14 07:51:16,193 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 07:51:17,913 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 07:51:42,298 - INFO - Model 'best_model.keras' loaded successfully.
+2025-05-14 07:51:55,775 - INFO - Game started.
+2025-05-14 07:52:26,241 - INFO - Saved ROI: logs\debug_roi_20250514_075226_round1_conf1.00_rock.jpg
+2025-05-14 07:52:26,267 - INFO - Prediction raw: [[6.1398248e-05 9.9993837e-01 2.2050354e-07]], Player chose: rock, Confidence: 0.9999
+2025-05-14 07:52:26,267 - INFO - Round 1 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 07:52:29,213 - INFO - Starting Round 2
+2025-05-14 07:52:32,888 - INFO - Saved ROI: logs\debug_roi_20250514_075232_round2_conf1.00_rock.jpg
+2025-05-14 07:52:32,891 - INFO - Prediction raw: [[0.00144343 0.9965587  0.00199788]], Player chose: rock, Confidence: 0.9966
+2025-05-14 07:52:32,892 - INFO - Round 2 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 07:52:35,222 - INFO - Starting Round 3
+2025-05-14 07:52:39,013 - INFO - Saved ROI: logs\debug_roi_20250514_075238_round3_conf0.99_rock.jpg
+2025-05-14 07:52:39,018 - INFO - Prediction raw: [[0.006365   0.9891368  0.00449827]], Player chose: rock, Confidence: 0.9891
+2025-05-14 07:52:39,019 - INFO - Round 3 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:52:42,511 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-14 07:52:42,779 - INFO - New game started.
+2025-05-14 07:52:46,604 - INFO - Saved ROI: logs\debug_roi_20250514_075246_round1_conf0.97_scissors.jpg
+2025-05-14 07:52:46,605 - INFO - Prediction raw: [[0.01647008 0.01279428 0.9707356 ]], Player chose: scissors, Confidence: 0.9707
+2025-05-14 07:52:46,606 - INFO - Round 1 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-14 07:52:50,975 - INFO - Starting Round 2
+2025-05-14 07:52:54,471 - INFO - Saved ROI: logs\debug_roi_20250514_075254_round2_conf0.99_paper.jpg
+2025-05-14 07:52:54,472 - INFO - Prediction raw: [[9.8768300e-01 4.8726253e-04 1.1829786e-02]], Player chose: paper, Confidence: 0.9877
+2025-05-14 07:52:54,472 - INFO - Round 2 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 07:52:56,311 - INFO - Starting Round 3
+2025-05-14 07:53:04,143 - INFO - Saved ROI: logs\debug_roi_20250514_075304_round3_conf0.76_scissors.jpg
+2025-05-14 07:53:04,143 - INFO - Prediction raw: [[0.21351796 0.02190843 0.76457363]], Player chose: scissors, Confidence: 0.7646
+2025-05-14 07:53:04,143 - INFO - Round 3 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 07:53:06,156 - INFO - Game finished. Final Score: Player 0, Computer 2
+2025-05-14 07:53:07,218 - INFO - New game started.
+2025-05-14 07:53:28,440 - INFO - Saved ROI: logs\debug_roi_20250514_075328_round1_conf1.00_rock.jpg
+2025-05-14 07:53:28,441 - INFO - Prediction raw: [[7.4037374e-04 9.9925870e-01 8.7151142e-07]], Player chose: rock, Confidence: 0.9993
+2025-05-14 07:53:28,441 - INFO - Round 1 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 07:53:32,089 - INFO - Starting Round 2
+2025-05-14 07:53:35,912 - INFO - Saved ROI: logs\debug_roi_20250514_075335_round2_conf0.99_scissors.jpg
+2025-05-14 07:53:35,912 - INFO - Prediction raw: [[0.01022197 0.0010564  0.9887216 ]], Player chose: scissors, Confidence: 0.9887
+2025-05-14 07:53:35,913 - INFO - Round 2 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 07:53:39,736 - INFO - Starting Round 3
+2025-05-14 07:53:44,459 - INFO - Saved ROI: logs\debug_roi_20250514_075344_round3_conf1.00_paper.jpg
+2025-05-14 07:53:44,460 - INFO - Prediction raw: [[9.9992931e-01 3.5945715e-05 3.4691580e-05]], Player chose: paper, Confidence: 0.9999
+2025-05-14 07:53:44,461 - INFO - Round 3 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 07:56:31,187 - INFO - Game finished. Final Score: Player 0, Computer 2
+2025-05-14 07:57:08,769 - INFO - New game started.
+2025-05-14 07:57:12,624 - INFO - Saved ROI: logs\debug_roi_20250514_075712_round1_conf1.00_rock.jpg
+2025-05-14 07:57:12,626 - INFO - Prediction raw: [[1.118527e-03 9.988809e-01 5.746558e-07]], Player chose: rock, Confidence: 0.9989
+2025-05-14 07:57:12,626 - INFO - Round 1 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 07:57:15,441 - INFO - Starting Round 2
+2025-05-14 07:57:19,162 - INFO - Saved ROI: logs\debug_roi_20250514_075719_round2_conf0.56_unknown.jpg
+2025-05-14 07:57:19,163 - INFO - Prediction raw: [[0.02219302 0.5553681  0.42243883]], Player chose: unknown, Confidence: 0.5554
+2025-05-14 07:57:19,164 - INFO - Round 2 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 07:57:30,694 - INFO - Starting Round 3
+2025-05-14 07:57:35,178 - INFO - Saved ROI: logs\debug_roi_20250514_075735_round3_conf0.73_rock.jpg
+2025-05-14 07:57:35,180 - INFO - Prediction raw: [[0.24137059 0.7291633  0.02946612]], Player chose: rock, Confidence: 0.7292
+2025-05-14 07:57:35,180 - INFO - Round 3 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:57:37,094 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-14 07:57:37,883 - INFO - New game started.
+2025-05-14 07:57:41,633 - INFO - Saved ROI: logs\debug_roi_20250514_075741_round1_conf0.73_rock.jpg
+2025-05-14 07:57:41,635 - INFO - Prediction raw: [[0.24239719 0.7281796  0.02942322]], Player chose: rock, Confidence: 0.7282
+2025-05-14 07:57:41,635 - INFO - Round 1 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 07:57:44,623 - INFO - Starting Round 2
+2025-05-14 07:57:48,980 - INFO - Saved ROI: logs\debug_roi_20250514_075748_round2_conf0.73_rock.jpg
+2025-05-14 07:57:48,981 - INFO - Prediction raw: [[0.23611096 0.73275995 0.03112913]], Player chose: rock, Confidence: 0.7328
+2025-05-14 07:57:48,981 - INFO - Round 2 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:57:51,072 - INFO - Starting Round 3
+2025-05-14 07:57:54,917 - INFO - Saved ROI: logs\debug_roi_20250514_075754_round3_conf0.60_unknown.jpg
+2025-05-14 07:57:54,920 - INFO - Prediction raw: [[0.36594638 0.6027569  0.03129675]], Player chose: unknown, Confidence: 0.6028
+2025-05-14 07:57:54,920 - INFO - Round 3 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-14 07:57:57,159 - INFO - Game finished. Final Score: Player 1, Computer 0
+2025-05-14 07:57:57,659 - INFO - New game started.
+2025-05-14 07:58:01,545 - INFO - Saved ROI: logs\debug_roi_20250514_075801_round1_conf0.74_rock.jpg
+2025-05-14 07:58:01,546 - INFO - Prediction raw: [[0.2337748  0.7413837  0.02484159]], Player chose: rock, Confidence: 0.7414
+2025-05-14 07:58:01,546 - INFO - Round 1 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 07:58:02,927 - INFO - Starting Round 2
+2025-05-14 07:58:09,200 - INFO - Saved ROI: logs\debug_roi_20250514_075809_round2_conf0.79_rock.jpg
+2025-05-14 07:58:09,201 - INFO - Prediction raw: [[0.1775365  0.7939998  0.02846371]], Player chose: rock, Confidence: 0.7940
+2025-05-14 07:58:09,202 - INFO - Round 2 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:58:10,518 - INFO - Starting Round 3
+2025-05-14 07:58:14,660 - INFO - Saved ROI: logs\debug_roi_20250514_075814_round3_conf0.71_rock.jpg
+2025-05-14 07:58:14,661 - INFO - Prediction raw: [[0.25863165 0.70854485 0.03282344]], Player chose: rock, Confidence: 0.7085
+2025-05-14 07:58:14,662 - INFO - Round 3 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:58:19,546 - INFO - Game finished. Final Score: Player 2, Computer 0
+2025-05-14 07:58:20,577 - INFO - New game started.
+2025-05-14 07:58:53,531 - INFO - Saved ROI: logs\debug_roi_20250514_075853_round1_conf0.99_paper.jpg
+2025-05-14 07:58:53,533 - INFO - Prediction raw: [[9.8944235e-01 1.0232952e-02 3.2466397e-04]], Player chose: paper, Confidence: 0.9894
+2025-05-14 07:58:53,534 - INFO - Round 1 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 07:59:03,737 - INFO - Starting Round 2
+2025-05-14 07:59:07,493 - INFO - Saved ROI: logs\debug_roi_20250514_075907_round2_conf0.75_rock.jpg
+2025-05-14 07:59:07,494 - INFO - Prediction raw: [[0.216861   0.75116074 0.03197827]], Player chose: rock, Confidence: 0.7512
+2025-05-14 07:59:07,494 - INFO - Round 2 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 07:59:08,094 - INFO - Starting Round 3
+2025-05-14 07:59:11,972 - INFO - Saved ROI: logs\debug_roi_20250514_075911_round3_conf0.68_unknown.jpg
+2025-05-14 07:59:11,973 - INFO - Prediction raw: [[0.29184523 0.67515385 0.03300097]], Player chose: unknown, Confidence: 0.6752
+2025-05-14 07:59:11,974 - INFO - Round 3 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-14 07:59:12,911 - INFO - Game finished. Final Score: Player 0, Computer 2
+2025-05-14 07:59:13,698 - INFO - New game started.
+2025-05-14 07:59:21,962 - INFO - Saved ROI: logs\debug_roi_20250514_075921_round1_conf0.58_unknown.jpg
+2025-05-14 07:59:21,963 - INFO - Prediction raw: [[4.2094061e-01 5.7879746e-01 2.6194472e-04]], Player chose: unknown, Confidence: 0.5788
+2025-05-14 07:59:21,964 - INFO - Round 1 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 07:59:24,460 - INFO - Starting Round 2
+2025-05-14 07:59:28,012 - INFO - Saved ROI: logs\debug_roi_20250514_075928_round2_conf0.76_rock.jpg
+2025-05-14 07:59:28,014 - INFO - Prediction raw: [[0.21270172 0.75909597 0.02820227]], Player chose: rock, Confidence: 0.7591
+2025-05-14 07:59:28,014 - INFO - Round 2 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:59:28,609 - INFO - Starting Round 3
+2025-05-14 07:59:32,491 - INFO - Saved ROI: logs\debug_roi_20250514_075932_round3_conf0.72_rock.jpg
+2025-05-14 07:59:32,492 - INFO - Prediction raw: [[0.25809616 0.71645516 0.0254487 ]], Player chose: rock, Confidence: 0.7165
+2025-05-14 07:59:32,492 - INFO - Round 3 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:59:33,263 - INFO - Game finished. Final Score: Player 2, Computer 0
+2025-05-14 07:59:35,010 - INFO - New game started.
+2025-05-14 07:59:42,495 - INFO - Saved ROI: logs\debug_roi_20250514_075942_round1_conf1.00_rock.jpg
+2025-05-14 07:59:42,497 - INFO - Prediction raw: [[0.00222254 0.99653697 0.00124046]], Player chose: rock, Confidence: 0.9965
+2025-05-14 07:59:42,498 - INFO - Round 1 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 07:59:45,975 - INFO - Starting Round 2
+2025-05-14 07:59:49,709 - INFO - Saved ROI: logs\debug_roi_20250514_075949_round2_conf0.51_unknown.jpg
+2025-05-14 07:59:49,710 - INFO - Prediction raw: [[0.34876084 0.14496283 0.5062763 ]], Player chose: unknown, Confidence: 0.5063
+2025-05-14 07:59:49,710 - INFO - Round 2 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-14 08:00:13,230 - INFO - Starting Round 3
+2025-05-14 08:00:17,616 - INFO - Saved ROI: logs\debug_roi_20250514_080017_round3_conf0.71_rock.jpg
+2025-05-14 08:00:17,618 - INFO - Prediction raw: [[0.24951267 0.7131111  0.0373763 ]], Player chose: rock, Confidence: 0.7131
+2025-05-14 08:00:17,618 - INFO - Round 3 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 08:00:21,866 - INFO - Game quit by user.
+2025-05-14 08:00:22,386 - INFO - Application closed.
+2025-05-14 08:01:58,841 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 08:01:59,721 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 08:02:21,709 - INFO - Model 'best_model.keras' loaded successfully.
+2025-05-14 08:02:31,979 - INFO - Game started.
+2025-05-14 08:02:52,212 - INFO - Saved ROI: logs\debug_roi_20250514_080252_round1_conf0.92_rock.jpg
+2025-05-14 08:02:52,214 - INFO - Prediction raw: [[0.06960283 0.9228963  0.00750088]], Player chose: rock, Confidence: 0.9229
+2025-05-14 08:02:52,214 - INFO - Round 1 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 08:02:53,158 - INFO - Starting Round 2
+2025-05-14 08:02:56,938 - INFO - Saved ROI: logs\debug_roi_20250514_080256_round2_conf0.94_rock.jpg
+2025-05-14 08:02:56,939 - INFO - Prediction raw: [[0.05257336 0.9401812  0.00724546]], Player chose: rock, Confidence: 0.9402
+2025-05-14 08:02:56,939 - INFO - Round 2 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 08:02:57,909 - INFO - Starting Round 3
+2025-05-14 08:03:01,701 - INFO - Saved ROI: logs\debug_roi_20250514_080301_round3_conf0.94_rock.jpg
+2025-05-14 08:03:01,702 - INFO - Prediction raw: [[0.05718446 0.9364095  0.00640609]], Player chose: rock, Confidence: 0.9364
+2025-05-14 08:03:01,702 - INFO - Round 3 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 08:03:03,329 - INFO - Game finished. Final Score: Player 0, Computer 0
+2025-05-14 08:03:04,287 - INFO - New game started.
+2025-05-14 08:03:51,483 - INFO - Saved ROI: logs\debug_roi_20250514_080351_round1_conf0.99_rock.jpg
+2025-05-14 08:03:51,484 - INFO - Prediction raw: [[1.20024625e-02 9.87970531e-01 2.69471893e-05]], Player chose: rock, Confidence: 0.9880
+2025-05-14 08:03:51,485 - INFO - Round 1 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 08:03:54,390 - INFO - Starting Round 2
+2025-05-14 08:03:58,439 - INFO - Saved ROI: logs\debug_roi_20250514_080358_round2_conf0.97_scissors.jpg
+2025-05-14 08:03:58,440 - INFO - Prediction raw: [[0.01990549 0.0088393  0.97125524]], Player chose: scissors, Confidence: 0.9713
+2025-05-14 08:03:58,441 - INFO - Round 2 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-14 08:04:01,347 - INFO - Starting Round 3
+2025-05-14 08:04:05,896 - INFO - Saved ROI: logs\debug_roi_20250514_080405_round3_conf1.00_paper.jpg
+2025-05-14 08:04:05,896 - INFO - Prediction raw: [[9.9955529e-01 1.9606395e-04 2.4866723e-04]], Player chose: paper, Confidence: 0.9996
+2025-05-14 08:04:05,897 - INFO - Round 3 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 08:04:17,839 - INFO - Game quit by user.
+2025-05-14 08:04:18,341 - INFO - Application closed.
+2025-05-14 09:31:59,197 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 09:31:59,942 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 09:32:22,077 - INFO - Model 'best_model.keras' loaded successfully.
+2025-05-14 09:32:36,872 - INFO - Game started.
+2025-05-14 09:32:47,692 - INFO - Saved ROI: logs\debug_roi_20250514_093247_round1_conf0.98_paper.jpg
+2025-05-14 09:32:47,707 - INFO - Prediction raw: [[0.9824851  0.01496718 0.00254776]], Player chose: paper, Confidence: 0.9825
+2025-05-14 09:32:47,708 - INFO - Round 1 result: Player=paper, Computer=paper, Winner=Draw
+2025-05-14 09:32:53,112 - INFO - Starting Round 2
+2025-05-14 09:32:56,539 - INFO - Saved ROI: logs\debug_roi_20250514_093256_round2_conf1.00_paper.jpg
+2025-05-14 09:32:56,540 - INFO - Prediction raw: [[9.9628252e-01 3.6497468e-03 6.7678258e-05]], Player chose: paper, Confidence: 0.9963
+2025-05-14 09:32:56,540 - INFO - Round 2 result: Player=paper, Computer=paper, Winner=Draw
+2025-05-14 09:32:57,748 - INFO - Starting Round 3
+2025-05-14 09:33:01,386 - INFO - Saved ROI: logs\debug_roi_20250514_093301_round3_conf0.95_rock.jpg
+2025-05-14 09:33:01,386 - INFO - Prediction raw: [[0.04944592 0.94811463 0.00243949]], Player chose: rock, Confidence: 0.9481
+2025-05-14 09:33:01,387 - INFO - Round 3 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 09:33:03,959 - INFO - Game finished. Final Score: Player 0, Computer 1
+2025-05-14 09:33:04,188 - INFO - New game started.
+2025-05-14 09:33:08,044 - INFO - Saved ROI: logs\debug_roi_20250514_093308_round1_conf0.56_unknown.jpg
+2025-05-14 09:33:08,044 - INFO - Prediction raw: [[0.55565715 0.0010364  0.44330642]], Player chose: unknown, Confidence: 0.5557
+2025-05-14 09:33:08,045 - INFO - Round 1 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 09:33:09,577 - INFO - Starting Round 2
+2025-05-14 09:33:13,051 - INFO - Saved ROI: logs\debug_roi_20250514_093313_round2_conf0.92_scissors.jpg
+2025-05-14 09:33:13,052 - INFO - Prediction raw: [[0.07727657 0.00680023 0.9159232 ]], Player chose: scissors, Confidence: 0.9159
+2025-05-14 09:33:13,052 - INFO - Round 2 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-14 09:33:14,802 - INFO - Starting Round 3
+2025-05-14 09:33:18,128 - INFO - Saved ROI: logs\debug_roi_20250514_093318_round3_conf0.91_scissors.jpg
+2025-05-14 09:33:18,129 - INFO - Prediction raw: [[9.190177e-02 3.023764e-05 9.080680e-01]], Player chose: scissors, Confidence: 0.9081
+2025-05-14 09:33:18,129 - INFO - Round 3 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-14 09:33:22,283 - INFO - Game finished. Final Score: Player 2, Computer 0
+2025-05-14 09:33:22,560 - INFO - New game started.
+2025-05-14 09:33:26,447 - INFO - Saved ROI: logs\debug_roi_20250514_093326_round1_conf1.00_paper.jpg
+2025-05-14 09:33:26,447 - INFO - Prediction raw: [[9.99808729e-01 1.14395574e-04 7.69160542e-05]], Player chose: paper, Confidence: 0.9998
+2025-05-14 09:33:26,448 - INFO - Round 1 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 09:33:28,563 - INFO - Starting Round 2
+2025-05-14 09:33:32,147 - INFO - Saved ROI: logs\debug_roi_20250514_093332_round2_conf1.00_scissors.jpg
+2025-05-14 09:33:32,147 - INFO - Prediction raw: [[2.0214978e-03 2.5304254e-05 9.9795318e-01]], Player chose: scissors, Confidence: 0.9980
+2025-05-14 09:33:32,147 - INFO - Round 2 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-14 09:33:35,503 - INFO - Starting Round 3
+2025-05-14 09:33:38,952 - INFO - Saved ROI: logs\debug_roi_20250514_093338_round3_conf0.97_scissors.jpg
+2025-05-14 09:33:38,952 - INFO - Prediction raw: [[2.7602648e-02 1.8348625e-04 9.7221392e-01]], Player chose: scissors, Confidence: 0.9722
+2025-05-14 09:33:38,953 - INFO - Round 3 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-14 09:33:40,890 - INFO - Game finished. Final Score: Player 0, Computer 1
+2025-05-14 09:33:41,250 - INFO - New game started.
+2025-05-14 09:33:45,286 - INFO - Saved ROI: logs\debug_roi_20250514_093345_round1_conf0.91_rock.jpg
+2025-05-14 09:33:45,286 - INFO - Prediction raw: [[0.08508706 0.9133814  0.00153155]], Player chose: rock, Confidence: 0.9134
+2025-05-14 09:33:45,287 - INFO - Round 1 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 09:33:46,888 - INFO - Starting Round 2
+2025-05-14 09:33:50,386 - INFO - Saved ROI: logs\debug_roi_20250514_093350_round2_conf0.96_rock.jpg
+2025-05-14 09:33:50,386 - INFO - Prediction raw: [[0.02624036 0.9581319  0.01562765]], Player chose: rock, Confidence: 0.9581
+2025-05-14 09:33:50,386 - INFO - Round 2 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 09:33:52,406 - INFO - Starting Round 3
+2025-05-14 09:33:55,988 - INFO - Saved ROI: logs\debug_roi_20250514_093355_round3_conf0.49_unknown.jpg
+2025-05-14 09:33:55,990 - INFO - Prediction raw: [[0.49321496 0.44263598 0.06414913]], Player chose: unknown, Confidence: 0.4932
+2025-05-14 09:33:55,990 - INFO - Round 3 result: Player=unknown, Computer=rock, Winner=Unknown - Retry
+2025-05-14 09:33:57,372 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-14 09:33:57,648 - INFO - New game started.
+2025-05-14 09:34:01,687 - INFO - Saved ROI: logs\debug_roi_20250514_093401_round1_conf0.59_unknown.jpg
+2025-05-14 09:34:01,688 - INFO - Prediction raw: [[0.5868651  0.38844717 0.02468771]], Player chose: unknown, Confidence: 0.5869
+2025-05-14 09:34:01,688 - INFO - Round 1 result: Player=unknown, Computer=rock, Winner=Unknown - Retry
+2025-05-14 09:34:02,847 - INFO - Starting Round 2
+2025-05-14 09:34:06,539 - INFO - Saved ROI: logs\debug_roi_20250514_093406_round2_conf0.80_paper.jpg
+2025-05-14 09:34:06,539 - INFO - Prediction raw: [[0.79774207 0.13803193 0.064226  ]], Player chose: paper, Confidence: 0.7977
+2025-05-14 09:34:06,539 - INFO - Round 2 result: Player=paper, Computer=rock, Winner=Player
+2025-05-14 09:34:08,326 - INFO - Starting Round 3
+2025-05-14 09:34:11,933 - INFO - Saved ROI: logs\debug_roi_20250514_093411_round3_conf0.60_unknown.jpg
+2025-05-14 09:34:11,934 - INFO - Prediction raw: [[0.36597574 0.6000635  0.03396081]], Player chose: unknown, Confidence: 0.6001
+2025-05-14 09:34:11,934 - INFO - Round 3 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 09:34:15,018 - INFO - Game finished. Final Score: Player 1, Computer 0
+2025-05-14 09:34:15,519 - INFO - New game started.
+2025-05-14 09:34:19,413 - INFO - Saved ROI: logs\debug_roi_20250514_093419_round1_conf0.98_paper.jpg
+2025-05-14 09:34:19,414 - INFO - Prediction raw: [[9.8444355e-01 1.4832628e-02 7.2387938e-04]], Player chose: paper, Confidence: 0.9844
+2025-05-14 09:34:19,414 - INFO - Round 1 result: Player=paper, Computer=rock, Winner=Player
+2025-05-14 09:34:27,155 - INFO - Starting Round 2
+2025-05-14 09:34:30,687 - INFO - Saved ROI: logs\debug_roi_20250514_093430_round2_conf0.64_unknown.jpg
+2025-05-14 09:34:30,688 - INFO - Prediction raw: [[0.35559675 0.6358137  0.00858954]], Player chose: unknown, Confidence: 0.6358
+2025-05-14 09:34:30,688 - INFO - Round 2 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 09:34:32,947 - INFO - Starting Round 3
+2025-05-14 09:34:36,621 - INFO - Saved ROI: logs\debug_roi_20250514_093436_round3_conf0.49_unknown.jpg
+2025-05-14 09:34:36,622 - INFO - Prediction raw: [[0.49022123 0.49141482 0.01836397]], Player chose: unknown, Confidence: 0.4914
+2025-05-14 09:34:36,622 - INFO - Round 3 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 09:34:38,039 - INFO - Game finished. Final Score: Player 1, Computer 0
+2025-05-14 09:34:38,321 - INFO - New game started.
+2025-05-14 09:34:42,484 - INFO - Saved ROI: logs\debug_roi_20250514_093442_round1_conf0.91_rock.jpg
+2025-05-14 09:34:42,485 - INFO - Prediction raw: [[0.08421607 0.9146438  0.00114014]], Player chose: rock, Confidence: 0.9146
+2025-05-14 09:34:42,485 - INFO - Round 1 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 09:34:46,290 - INFO - Starting Round 2
+2025-05-14 09:34:49,750 - INFO - Saved ROI: logs\debug_roi_20250514_093449_round2_conf1.00_scissors.jpg
+2025-05-14 09:34:49,751 - INFO - Prediction raw: [[0.00350747 0.0011838  0.9953088 ]], Player chose: scissors, Confidence: 0.9953
+2025-05-14 09:34:49,751 - INFO - Round 2 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 09:34:52,658 - INFO - Starting Round 3
+2025-05-14 09:34:56,230 - INFO - Saved ROI: logs\debug_roi_20250514_093456_round3_conf0.98_paper.jpg
+2025-05-14 09:34:56,231 - INFO - Prediction raw: [[0.98028755 0.00517671 0.01453565]], Player chose: paper, Confidence: 0.9803
+2025-05-14 09:34:56,231 - INFO - Round 3 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 09:34:58,172 - INFO - Game finished. Final Score: Player 1, Computer 2
+2025-05-14 09:34:58,368 - INFO - New game started.
+2025-05-14 09:35:02,083 - INFO - Saved ROI: logs\debug_roi_20250514_093502_round1_conf1.00_scissors.jpg
+2025-05-14 09:35:02,084 - INFO - Prediction raw: [[3.6860228e-04 1.9680951e-05 9.9961179e-01]], Player chose: scissors, Confidence: 0.9996
+2025-05-14 09:35:02,084 - INFO - Round 1 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-14 09:35:04,404 - INFO - Game quit by user.
+2025-05-14 09:35:04,916 - INFO - Application closed.
+2025-05-14 11:01:24,873 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 11:01:25,973 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 11:01:42,063 - INFO - Model 'best_model.keras' loaded successfully.
+2025-05-14 11:01:49,902 - INFO - Game started.
+2025-05-14 11:05:30,291 - INFO - Saved ROI: logs\debug_roi_20250514_110530_round1_conf0.64_unknown.jpg
+2025-05-14 11:05:30,324 - INFO - Prediction raw: [[0.36141434 0.63777435 0.00081127]], Player chose: unknown, Confidence: 0.6378
+2025-05-14 11:05:30,324 - INFO - Round 1 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-14 11:05:33,930 - INFO - Starting Round 2
+2025-05-14 11:05:37,343 - INFO - Saved ROI: logs\debug_roi_20250514_110537_round2_conf0.84_rock.jpg
+2025-05-14 11:05:37,344 - INFO - Prediction raw: [[1.6125986e-01 8.3837783e-01 3.6236140e-04]], Player chose: rock, Confidence: 0.8384
+2025-05-14 11:05:37,344 - INFO - Round 2 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 11:05:39,690 - INFO - Starting Round 3
+2025-05-14 11:05:43,155 - INFO - Saved ROI: logs\debug_roi_20250514_110543_round3_conf0.53_unknown.jpg
+2025-05-14 11:05:43,156 - INFO - Prediction raw: [[0.3922859  0.07695337 0.53076077]], Player chose: unknown, Confidence: 0.5308
+2025-05-14 11:05:43,156 - INFO - Round 3 result: Player=unknown, Computer=rock, Winner=Unknown - Retry
+2025-05-14 11:05:44,393 - INFO - Game finished. Final Score: Player 0, Computer 1
+2025-05-14 11:05:44,937 - INFO - New game started.
+2025-05-14 11:05:48,782 - INFO - Saved ROI: logs\debug_roi_20250514_110548_round1_conf0.83_paper.jpg
+2025-05-14 11:05:48,783 - INFO - Prediction raw: [[0.82823646 0.05981264 0.11195094]], Player chose: paper, Confidence: 0.8282
+2025-05-14 11:05:48,783 - INFO - Round 1 result: Player=paper, Computer=rock, Winner=Player
+2025-05-14 11:05:51,433 - INFO - Starting Round 2
+2025-05-14 11:05:54,280 - INFO - Saved ROI: logs\debug_roi_20250514_110554_round2_conf0.96_scissors.jpg
+2025-05-14 11:05:54,280 - INFO - Prediction raw: [[0.02132514 0.02215293 0.956522  ]], Player chose: scissors, Confidence: 0.9565
+2025-05-14 11:05:54,281 - INFO - Round 2 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 11:05:56,714 - INFO - Starting Round 3
+2025-05-14 11:06:00,242 - INFO - Saved ROI: logs\debug_roi_20250514_110600_round3_conf0.99_paper.jpg
+2025-05-14 11:06:00,242 - INFO - Prediction raw: [[0.9911827  0.00592236 0.00289504]], Player chose: paper, Confidence: 0.9912
+2025-05-14 11:06:00,242 - INFO - Round 3 result: Player=paper, Computer=paper, Winner=Draw
+2025-05-14 11:10:06,180 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-14 11:10:12,200 - INFO - New game started.
+2025-05-14 11:10:50,998 - INFO - Saved ROI: logs\debug_roi_20250514_111050_round1_conf0.82_rock.jpg
+2025-05-14 11:10:50,999 - INFO - Prediction raw: [[1.7661586e-01 8.2318527e-01 1.9885370e-04]], Player chose: rock, Confidence: 0.8232
+2025-05-14 11:10:50,999 - INFO - Round 1 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 11:10:53,812 - INFO - Starting Round 2
+2025-05-14 11:10:57,241 - INFO - Saved ROI: logs\debug_roi_20250514_111057_round2_conf0.90_scissors.jpg
+2025-05-14 11:10:57,241 - INFO - Prediction raw: [[0.08994659 0.00998914 0.9000643 ]], Player chose: scissors, Confidence: 0.9001
+2025-05-14 11:10:57,242 - INFO - Round 2 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-14 11:11:02,905 - INFO - Starting Round 3
+2025-05-14 11:11:06,317 - INFO - Saved ROI: logs\debug_roi_20250514_111106_round3_conf1.00_paper.jpg
+2025-05-14 11:11:06,317 - INFO - Prediction raw: [[9.9994087e-01 5.6217224e-05 2.8668173e-06]], Player chose: paper, Confidence: 0.9999
+2025-05-14 11:11:06,318 - INFO - Round 3 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 11:11:32,253 - INFO - Game finished. Final Score: Player 1, Computer 2
+2025-05-14 11:16:15,335 - INFO - New game started.
+2025-05-14 11:16:18,936 - INFO - Saved ROI: logs\debug_roi_20250514_111618_round1_conf0.82_paper.jpg
+2025-05-14 11:16:18,937 - INFO - Prediction raw: [[0.8210022  0.17675114 0.00224666]], Player chose: paper, Confidence: 0.8210
+2025-05-14 11:16:18,937 - INFO - Round 1 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 11:16:20,331 - INFO - Starting Round 2
+2025-05-14 11:16:23,697 - INFO - Saved ROI: logs\debug_roi_20250514_111623_round2_conf0.76_rock.jpg
+2025-05-14 11:16:23,698 - INFO - Prediction raw: [[2.4318950e-01 7.5678307e-01 2.7417462e-05]], Player chose: rock, Confidence: 0.7568
+2025-05-14 11:16:23,698 - INFO - Round 2 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 11:16:25,179 - INFO - Starting Round 3
+2025-05-14 11:16:28,558 - INFO - Saved ROI: logs\debug_roi_20250514_111628_round3_conf0.93_rock.jpg
+2025-05-14 11:16:28,558 - INFO - Prediction raw: [[0.06865096 0.9301599  0.00118914]], Player chose: rock, Confidence: 0.9302
+2025-05-14 11:16:28,559 - INFO - Round 3 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 11:16:29,690 - INFO - Game finished. Final Score: Player 0, Computer 2
+2025-05-14 11:16:29,897 - INFO - New game started.
+2025-05-14 11:16:33,548 - INFO - Saved ROI: logs\debug_roi_20250514_111633_round1_conf0.78_rock.jpg
+2025-05-14 11:16:33,549 - INFO - Prediction raw: [[2.2011662e-01 7.7927589e-01 6.0748978e-04]], Player chose: rock, Confidence: 0.7793
+2025-05-14 11:16:33,549 - INFO - Round 1 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 11:16:37,305 - INFO - Starting Round 2
+2025-05-14 11:16:40,689 - INFO - Saved ROI: logs\debug_roi_20250514_111640_round2_conf1.00_rock.jpg
+2025-05-14 11:16:40,690 - INFO - Prediction raw: [[0.00114971 0.99586236 0.00298793]], Player chose: rock, Confidence: 0.9959
+2025-05-14 11:16:40,690 - INFO - Round 2 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 11:16:44,127 - INFO - Starting Round 3
+2025-05-14 11:16:48,244 - INFO - Saved ROI: logs\debug_roi_20250514_111648_round3_conf0.66_unknown.jpg
+2025-05-14 11:16:48,244 - INFO - Prediction raw: [[6.5643913e-01 3.4355709e-01 3.7324041e-06]], Player chose: unknown, Confidence: 0.6564
+2025-05-14 11:16:48,245 - INFO - Round 3 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-14 11:16:49,435 - INFO - Game finished. Final Score: Player 2, Computer 0
+2025-05-14 11:16:49,702 - INFO - New game started.
+2025-05-14 11:16:56,627 - INFO - Saved ROI: logs\debug_roi_20250514_111656_round1_conf0.60_unknown.jpg
+2025-05-14 11:16:56,628 - INFO - Prediction raw: [[6.0494709e-01 3.9501408e-01 3.8827868e-05]], Player chose: unknown, Confidence: 0.6049
+2025-05-14 11:16:56,628 - INFO - Round 1 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-14 11:16:57,979 - INFO - Starting Round 2
+2025-05-14 11:17:01,425 - INFO - Saved ROI: logs\debug_roi_20250514_111701_round2_conf1.00_rock.jpg
+2025-05-14 11:17:01,426 - INFO - Prediction raw: [[5.6548335e-05 9.9993873e-01 4.7524632e-06]], Player chose: rock, Confidence: 0.9999
+2025-05-14 11:17:01,427 - INFO - Round 2 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 11:17:03,259 - INFO - Starting Round 3
+2025-05-14 11:17:06,648 - INFO - Saved ROI: logs\debug_roi_20250514_111706_round3_conf1.00_rock.jpg
+2025-05-14 11:17:06,649 - INFO - Prediction raw: [[4.4702599e-03 9.9552935e-01 4.1728899e-07]], Player chose: rock, Confidence: 0.9955
+2025-05-14 11:17:06,649 - INFO - Round 3 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 11:17:08,283 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-14 11:17:08,505 - INFO - New game started.
+2025-05-14 11:17:12,158 - INFO - Saved ROI: logs\debug_roi_20250514_111712_round1_conf0.38_unknown.jpg
+2025-05-14 11:17:12,159 - INFO - Prediction raw: [[0.3771357  0.34298366 0.2798807 ]], Player chose: unknown, Confidence: 0.3771
+2025-05-14 11:17:12,159 - INFO - Round 1 result: Player=unknown, Computer=rock, Winner=Unknown - Retry
+2025-05-14 11:17:13,227 - INFO - Starting Round 2
+2025-05-14 11:17:16,611 - INFO - Saved ROI: logs\debug_roi_20250514_111716_round2_conf0.84_scissors.jpg
+2025-05-14 11:17:16,611 - INFO - Prediction raw: [[0.14963351 0.01059246 0.8397741 ]], Player chose: scissors, Confidence: 0.8398
+2025-05-14 11:17:16,611 - INFO - Round 2 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 11:17:17,852 - INFO - Starting Round 3
+2025-05-14 11:17:21,237 - INFO - Saved ROI: logs\debug_roi_20250514_111721_round3_conf0.93_rock.jpg
+2025-05-14 11:17:21,237 - INFO - Prediction raw: [[0.06242675 0.933527   0.00404622]], Player chose: rock, Confidence: 0.9335
+2025-05-14 11:17:21,238 - INFO - Round 3 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 11:17:23,251 - INFO - Game finished. Final Score: Player 0, Computer 1
+2025-05-14 11:17:23,457 - INFO - New game started.
+2025-05-14 11:17:27,150 - INFO - Saved ROI: logs\debug_roi_20250514_111727_round1_conf0.91_rock.jpg
+2025-05-14 11:17:27,151 - INFO - Prediction raw: [[0.0789033  0.90690094 0.01419574]], Player chose: rock, Confidence: 0.9069
+2025-05-14 11:17:27,151 - INFO - Round 1 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 11:17:30,903 - INFO - Starting Round 2
+2025-05-14 11:17:34,362 - INFO - Saved ROI: logs\debug_roi_20250514_111734_round2_conf0.81_rock.jpg
+2025-05-14 11:17:34,363 - INFO - Prediction raw: [[0.00112716 0.8058461  0.19302678]], Player chose: rock, Confidence: 0.8058
+2025-05-14 11:17:34,363 - INFO - Round 2 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 11:17:40,617 - INFO - Starting Round 3
+2025-05-14 11:17:44,042 - INFO - Saved ROI: logs\debug_roi_20250514_111744_round3_conf0.88_scissors.jpg
+2025-05-14 11:17:44,043 - INFO - Prediction raw: [[0.02838764 0.09267828 0.878934  ]], Player chose: scissors, Confidence: 0.8789
+2025-05-14 11:17:44,043 - INFO - Round 3 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-14 11:17:47,659 - INFO - Game finished. Final Score: Player 2, Computer 1
+2025-05-14 11:17:47,864 - INFO - New game started.
+2025-05-14 11:17:52,119 - INFO - Saved ROI: logs\debug_roi_20250514_111752_round1_conf0.99_rock.jpg
+2025-05-14 11:17:52,120 - INFO - Prediction raw: [[8.3950851e-03 9.9157482e-01 3.0032721e-05]], Player chose: rock, Confidence: 0.9916
+2025-05-14 11:17:52,120 - INFO - Round 1 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 11:17:55,306 - INFO - Starting Round 2
+2025-05-14 11:17:58,712 - INFO - Saved ROI: logs\debug_roi_20250514_111758_round2_conf1.00_paper.jpg
+2025-05-14 11:17:58,713 - INFO - Prediction raw: [[9.9997115e-01 2.8699695e-05 1.3133423e-07]], Player chose: paper, Confidence: 1.0000
+2025-05-14 11:17:58,713 - INFO - Round 2 result: Player=paper, Computer=rock, Winner=Player
+2025-05-14 11:18:00,554 - INFO - Starting Round 3
+2025-05-14 11:18:04,025 - INFO - Saved ROI: logs\debug_roi_20250514_111804_round3_conf0.78_scissors.jpg
+2025-05-14 11:18:04,026 - INFO - Prediction raw: [[0.11664534 0.1024237  0.7809309 ]], Player chose: scissors, Confidence: 0.7809
+2025-05-14 11:18:04,026 - INFO - Round 3 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-14 11:18:06,444 - INFO - Game finished. Final Score: Player 2, Computer 1
+2025-05-14 11:18:06,665 - INFO - New game started.
+2025-05-14 11:18:10,318 - INFO - Saved ROI: logs\debug_roi_20250514_111810_round1_conf0.98_rock.jpg
+2025-05-14 11:18:10,318 - INFO - Prediction raw: [[0.00760955 0.9837157  0.00867477]], Player chose: rock, Confidence: 0.9837
+2025-05-14 11:18:10,319 - INFO - Round 1 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 11:18:12,969 - INFO - Starting Round 2
+2025-05-14 11:18:16,400 - INFO - Saved ROI: logs\debug_roi_20250514_111816_round2_conf0.69_unknown.jpg
+2025-05-14 11:18:16,400 - INFO - Prediction raw: [[0.25589958 0.0531835  0.6909169 ]], Player chose: unknown, Confidence: 0.6909
+2025-05-14 11:18:16,401 - INFO - Round 2 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-14 11:18:18,104 - INFO - Starting Round 3
+2025-05-14 11:18:21,462 - INFO - Saved ROI: logs\debug_roi_20250514_111821_round3_conf0.99_scissors.jpg
+2025-05-14 11:18:21,462 - INFO - Prediction raw: [[8.1036435e-03 2.2759436e-04 9.9166882e-01]], Player chose: scissors, Confidence: 0.9917
+2025-05-14 11:18:21,463 - INFO - Round 3 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 11:19:02,734 - ERROR - Failed to grab frame from webcam
+2025-05-14 11:19:02,770 - INFO - Application closed.
+2025-05-14 11:30:11,053 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 11:30:12,078 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 11:30:32,933 - INFO - Model 'best_model.keras' loaded successfully.
+2025-05-14 11:30:43,379 - INFO - Game started.
+2025-05-14 11:30:56,554 - INFO - Saved ROI: logs\debug_roi_20250514_113056_round1_conf0.50_unknown.jpg
+2025-05-14 11:30:56,556 - INFO - Prediction raw: [[0.50208354 0.478386   0.01953042]], Player chose: unknown, Confidence: 0.5021
+2025-05-14 11:30:56,556 - INFO - Round 1 result: Player=unknown, Computer=rock, Winner=Unknown - Retry
+2025-05-14 11:30:58,830 - INFO - Starting Round 2
+2025-05-14 11:31:02,360 - INFO - Saved ROI: logs\debug_roi_20250514_113102_round2_conf0.77_paper.jpg
+2025-05-14 11:31:02,361 - INFO - Prediction raw: [[0.7662169  0.23064576 0.00313744]], Player chose: paper, Confidence: 0.7662
+2025-05-14 11:31:02,361 - INFO - Round 2 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 11:31:05,053 - INFO - Starting Round 3
+2025-05-14 11:31:08,531 - INFO - Saved ROI: logs\debug_roi_20250514_113108_round3_conf0.96_paper.jpg
+2025-05-14 11:31:08,532 - INFO - Prediction raw: [[0.958616   0.04040207 0.00098201]], Player chose: paper, Confidence: 0.9586
+2025-05-14 11:31:08,532 - INFO - Round 3 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 11:31:11,026 - INFO - Game finished. Final Score: Player 0, Computer 2
+2025-05-14 11:31:11,143 - INFO - New game started.
+2025-05-14 11:31:15,276 - INFO - Saved ROI: logs\debug_roi_20250514_113115_round1_conf0.84_paper.jpg
+2025-05-14 11:31:15,277 - INFO - Prediction raw: [[0.840198   0.00444796 0.15535408]], Player chose: paper, Confidence: 0.8402
+2025-05-14 11:31:15,277 - INFO - Round 1 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 11:31:21,816 - INFO - Starting Round 2
+2025-05-14 11:31:25,224 - INFO - Saved ROI: logs\debug_roi_20250514_113125_round2_conf0.68_unknown.jpg
+2025-05-14 11:31:25,225 - INFO - Prediction raw: [[0.30912167 0.00617598 0.68470234]], Player chose: unknown, Confidence: 0.6847
+2025-05-14 11:31:25,225 - INFO - Round 2 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-14 11:31:27,054 - INFO - Starting Round 3
+2025-05-14 11:31:30,534 - INFO - Saved ROI: logs\debug_roi_20250514_113130_round3_conf0.93_scissors.jpg
+2025-05-14 11:31:30,534 - INFO - Prediction raw: [[0.06091475 0.00497553 0.93410975]], Player chose: scissors, Confidence: 0.9341
+2025-05-14 11:31:30,534 - INFO - Round 3 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 11:31:32,652 - INFO - Game finished. Final Score: Player 0, Computer 2
+2025-05-14 11:31:32,746 - INFO - New game started.
+2025-05-14 11:31:36,620 - INFO - Saved ROI: logs\debug_roi_20250514_113136_round1_conf1.00_rock.jpg
+2025-05-14 11:31:36,620 - INFO - Prediction raw: [[1.3878421e-04 9.9985886e-01 2.3678970e-06]], Player chose: rock, Confidence: 0.9999
+2025-05-14 11:31:36,620 - INFO - Round 1 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 11:31:40,140 - INFO - Starting Round 2
+2025-05-14 11:31:43,630 - INFO - Saved ROI: logs\debug_roi_20250514_113143_round2_conf1.00_paper.jpg
+2025-05-14 11:31:43,631 - INFO - Prediction raw: [[9.9999976e-01 5.4751183e-08 1.9150544e-07]], Player chose: paper, Confidence: 1.0000
+2025-05-14 11:31:43,631 - INFO - Round 2 result: Player=paper, Computer=paper, Winner=Draw
+2025-05-14 11:31:53,787 - INFO - Starting Round 3
+2025-05-14 11:31:57,446 - INFO - Saved ROI: logs\debug_roi_20250514_113157_round3_conf1.00_paper.jpg
+2025-05-14 11:31:57,447 - INFO - Prediction raw: [[9.9930346e-01 6.1362277e-04 8.2899933e-05]], Player chose: paper, Confidence: 0.9993
+2025-05-14 11:31:57,447 - INFO - Round 3 result: Player=paper, Computer=rock, Winner=Player
+2025-05-14 11:31:59,266 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-14 11:31:59,644 - INFO - New game started.
+2025-05-14 11:32:03,689 - INFO - Saved ROI: logs\debug_roi_20250514_113203_round1_conf0.78_paper.jpg
+2025-05-14 11:32:03,690 - INFO - Prediction raw: [[7.7782488e-01 2.2192214e-01 2.5295626e-04]], Player chose: paper, Confidence: 0.7778
+2025-05-14 11:32:03,691 - INFO - Round 1 result: Player=paper, Computer=paper, Winner=Draw
+2025-05-14 11:32:07,909 - INFO - Starting Round 2
+2025-05-14 11:32:11,321 - INFO - Saved ROI: logs\debug_roi_20250514_113211_round2_conf1.00_rock.jpg
+2025-05-14 11:32:11,322 - INFO - Prediction raw: [[7.3828275e-04 9.9925619e-01 5.4893508e-06]], Player chose: rock, Confidence: 0.9993
+2025-05-14 11:32:11,322 - INFO - Round 2 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 11:32:16,037 - INFO - Starting Round 3
+2025-05-14 11:32:19,477 - INFO - Saved ROI: logs\debug_roi_20250514_113219_round3_conf0.84_scissors.jpg
+2025-05-14 11:32:19,478 - INFO - Prediction raw: [[0.15687606 0.00244857 0.8406754 ]], Player chose: scissors, Confidence: 0.8407
+2025-05-14 11:32:19,478 - INFO - Round 3 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-14 11:32:23,796 - INFO - Game finished. Final Score: Player 2, Computer 0
+2025-05-14 11:32:24,129 - INFO - New game started.
+2025-05-14 11:32:28,199 - INFO - Saved ROI: logs\debug_roi_20250514_113228_round1_conf0.98_paper.jpg
+2025-05-14 11:32:28,202 - INFO - Prediction raw: [[9.8319238e-01 8.1285943e-05 1.6726324e-02]], Player chose: paper, Confidence: 0.9832
+2025-05-14 11:32:28,202 - INFO - Round 1 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 11:32:36,847 - INFO - Starting Round 2
+2025-05-14 11:32:40,306 - INFO - Saved ROI: logs\debug_roi_20250514_113240_round2_conf1.00_scissors.jpg
+2025-05-14 11:32:40,306 - INFO - Prediction raw: [[8.8780746e-04 9.8858075e-04 9.9812371e-01]], Player chose: scissors, Confidence: 0.9981
+2025-05-14 11:32:40,307 - INFO - Round 2 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-14 11:32:42,843 - INFO - Starting Round 3
+2025-05-14 11:32:46,343 - INFO - Saved ROI: logs\debug_roi_20250514_113246_round3_conf0.60_unknown.jpg
+2025-05-14 11:32:46,344 - INFO - Prediction raw: [[0.20888731 0.18710731 0.60400546]], Player chose: unknown, Confidence: 0.6040
+2025-05-14 11:32:46,344 - INFO - Round 3 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 11:32:48,596 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-14 11:32:48,843 - INFO - New game started.
+2025-05-14 11:32:52,667 - INFO - Saved ROI: logs\debug_roi_20250514_113252_round1_conf0.81_rock.jpg
+2025-05-14 11:32:52,668 - INFO - Prediction raw: [[0.12943184 0.80669224 0.06387588]], Player chose: rock, Confidence: 0.8067
+2025-05-14 11:32:52,668 - INFO - Round 1 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-14 11:32:58,133 - INFO - Starting Round 2
+2025-05-14 11:33:03,201 - INFO - Saved ROI: logs\debug_roi_20250514_113303_round2_conf0.94_rock.jpg
+2025-05-14 11:33:03,202 - INFO - Prediction raw: [[0.05393858 0.9434825  0.00257892]], Player chose: rock, Confidence: 0.9435
+2025-05-14 11:33:03,202 - INFO - Round 2 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 11:37:17,149 - INFO - Game quit by user.
+2025-05-14 11:37:17,654 - INFO - Application closed.
+2025-05-14 12:19:16,326 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 12:19:18,331 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 12:19:41,203 - INFO - Model 'best_model.keras' loaded successfully.
+2025-05-14 12:19:52,623 - INFO - Game started.
+2025-05-14 12:22:09,342 - INFO - Saved ROI: logs\debug_roi_20250514_122208_round1_conf0.49_unknown.jpg
+2025-05-14 12:22:09,374 - INFO - Prediction raw: [[0.49404153 0.48634553 0.01961287]], Player chose: unknown, Confidence: 0.4940
+2025-05-14 12:22:09,374 - INFO - Round 1 result: Player=unknown, Computer=scissors, Winner=Unknown - Retry
+2025-05-14 12:22:52,641 - INFO - Starting Round 2
+2025-05-14 12:22:56,733 - INFO - Saved ROI: logs\debug_roi_20250514_122256_round2_conf1.00_scissors.jpg
+2025-05-14 12:22:56,734 - INFO - Prediction raw: [[6.267115e-04 2.859455e-03 9.965138e-01]], Player chose: scissors, Confidence: 0.9965
+2025-05-14 12:22:56,734 - INFO - Round 2 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 12:22:58,796 - INFO - Starting Round 3
+2025-05-14 12:23:02,351 - INFO - Saved ROI: logs\debug_roi_20250514_122302_round3_conf0.48_unknown.jpg
+2025-05-14 12:23:02,352 - INFO - Prediction raw: [[0.484452   0.3941274  0.12142064]], Player chose: unknown, Confidence: 0.4845
+2025-05-14 12:23:02,352 - INFO - Round 3 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-14 12:23:04,003 - INFO - Game finished. Final Score: Player 0, Computer 1
+2025-05-14 12:23:04,204 - INFO - New game started.
+2025-05-14 12:23:07,992 - INFO - Saved ROI: logs\debug_roi_20250514_122307_round1_conf0.74_rock.jpg
+2025-05-14 12:23:07,993 - INFO - Prediction raw: [[0.25432646 0.74210626 0.00356727]], Player chose: rock, Confidence: 0.7421
+2025-05-14 12:23:07,993 - INFO - Round 1 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 12:23:10,323 - INFO - Starting Round 2
+2025-05-14 12:23:13,807 - INFO - Saved ROI: logs\debug_roi_20250514_122313_round2_conf1.00_paper.jpg
+2025-05-14 12:23:13,809 - INFO - Prediction raw: [[9.9999511e-01 4.8466181e-06 3.6613056e-08]], Player chose: paper, Confidence: 1.0000
+2025-05-14 12:23:13,809 - INFO - Round 2 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 12:23:15,418 - INFO - Starting Round 3
+2025-05-14 12:23:18,846 - INFO - Saved ROI: logs\debug_roi_20250514_122318_round3_conf1.00_rock.jpg
+2025-05-14 12:23:18,847 - INFO - Prediction raw: [[8.6618913e-04 9.9904352e-01 9.0294117e-05]], Player chose: rock, Confidence: 0.9990
+2025-05-14 12:23:18,847 - INFO - Round 3 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-14 12:23:20,069 - INFO - Game finished. Final Score: Player 2, Computer 1
+2025-05-14 12:23:20,369 - INFO - New game started.
+2025-05-14 12:23:24,160 - INFO - Saved ROI: logs\debug_roi_20250514_122324_round1_conf0.93_rock.jpg
+2025-05-14 12:23:24,161 - INFO - Prediction raw: [[0.05515541 0.9294149  0.01542967]], Player chose: rock, Confidence: 0.9294
+2025-05-14 12:23:24,162 - INFO - Round 1 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 12:23:27,053 - INFO - Starting Round 2
+2025-05-14 12:23:30,503 - INFO - Saved ROI: logs\debug_roi_20250514_122330_round2_conf0.71_scissors.jpg
+2025-05-14 12:23:30,504 - INFO - Prediction raw: [[0.2596078  0.03313046 0.70726174]], Player chose: scissors, Confidence: 0.7073
+2025-05-14 12:23:30,504 - INFO - Round 2 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-14 12:23:32,859 - INFO - Starting Round 3
+2025-05-14 12:23:36,417 - INFO - Saved ROI: logs\debug_roi_20250514_122336_round3_conf1.00_paper.jpg
+2025-05-14 12:23:36,417 - INFO - Prediction raw: [[9.9998701e-01 1.2984819e-05 4.0179589e-08]], Player chose: paper, Confidence: 1.0000
+2025-05-14 12:23:36,418 - INFO - Round 3 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 12:23:38,184 - INFO - Game finished. Final Score: Player 0, Computer 1
+2025-05-14 12:23:38,394 - INFO - New game started.
+2025-05-14 12:23:42,053 - INFO - Saved ROI: logs\debug_roi_20250514_122342_round1_conf0.99_rock.jpg
+2025-05-14 12:23:42,054 - INFO - Prediction raw: [[0.00723705 0.98975974 0.00300321]], Player chose: rock, Confidence: 0.9898
+2025-05-14 12:23:42,054 - INFO - Round 1 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 12:23:44,392 - INFO - Starting Round 2
+2025-05-14 12:23:47,820 - INFO - Saved ROI: logs\debug_roi_20250514_122347_round2_conf0.95_paper.jpg
+2025-05-14 12:23:47,821 - INFO - Prediction raw: [[0.9522466  0.00815998 0.0395934 ]], Player chose: paper, Confidence: 0.9522
+2025-05-14 12:23:47,821 - INFO - Round 2 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 12:23:50,132 - INFO - Starting Round 3
+2025-05-14 12:23:53,624 - INFO - Saved ROI: logs\debug_roi_20250514_122353_round3_conf0.85_scissors.jpg
+2025-05-14 12:23:53,625 - INFO - Prediction raw: [[0.14766656 0.00174179 0.85059166]], Player chose: scissors, Confidence: 0.8506
+2025-05-14 12:23:53,625 - INFO - Round 3 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-14 12:23:55,475 - INFO - Game finished. Final Score: Player 0, Computer 1
+2025-05-14 12:23:57,153 - INFO - New game started.
+2025-05-14 12:24:00,686 - INFO - Saved ROI: logs\debug_roi_20250514_122400_round1_conf1.00_paper.jpg
+2025-05-14 12:24:00,688 - INFO - Prediction raw: [[9.9844235e-01 1.5565240e-03 1.2047819e-06]], Player chose: paper, Confidence: 0.9984
+2025-05-14 12:24:00,689 - INFO - Round 1 result: Player=paper, Computer=paper, Winner=Draw
+2025-05-14 12:24:33,685 - INFO - Starting Round 2
+2025-05-14 12:24:40,262 - INFO - Saved ROI: logs\debug_roi_20250514_122440_round2_conf0.99_scissors.jpg
+2025-05-14 12:24:40,263 - INFO - Prediction raw: [[0.00210691 0.00367124 0.99422175]], Player chose: scissors, Confidence: 0.9942
+2025-05-14 12:24:40,263 - INFO - Round 2 result: Player=scissors, Computer=rock, Winner=Computer
+2025-05-14 12:24:42,988 - INFO - Starting Round 3
+2025-05-14 12:24:46,601 - INFO - Saved ROI: logs\debug_roi_20250514_122446_round3_conf0.90_rock.jpg
+2025-05-14 12:24:46,601 - INFO - Prediction raw: [[0.057439   0.9045197  0.03804129]], Player chose: rock, Confidence: 0.9045
+2025-05-14 12:24:46,602 - INFO - Round 3 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 12:34:54,949 - INFO - Game finished. Final Score: Player 0, Computer 1
+2025-05-14 12:34:55,650 - INFO - New game started.
+2025-05-14 12:34:59,483 - INFO - Saved ROI: logs\debug_roi_20250514_123459_round1_conf1.00_rock.jpg
+2025-05-14 12:34:59,484 - INFO - Prediction raw: [[7.098775e-04 9.992893e-01 8.458877e-07]], Player chose: rock, Confidence: 0.9993
+2025-05-14 12:34:59,485 - INFO - Round 1 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-14 12:35:07,743 - INFO - Starting Round 2
+2025-05-14 12:35:11,532 - INFO - Saved ROI: logs\debug_roi_20250514_123511_round2_conf0.89_scissors.jpg
+2025-05-14 12:35:11,534 - INFO - Prediction raw: [[0.05433144 0.05622025 0.88944834]], Player chose: scissors, Confidence: 0.8894
+2025-05-14 12:35:11,534 - INFO - Round 2 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-14 12:35:21,765 - INFO - Starting Round 3
+2025-05-14 12:35:26,080 - INFO - Saved ROI: logs\debug_roi_20250514_123526_round3_conf1.00_paper.jpg
+2025-05-14 12:35:26,081 - INFO - Prediction raw: [[9.9871039e-01 2.2265971e-05 1.2673902e-03]], Player chose: paper, Confidence: 0.9987
+2025-05-14 12:35:26,081 - INFO - Round 3 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-14 12:35:41,402 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-20 23:50:48,193 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-20 23:50:49,695 - WARNING - From D:\Uni\Sem6\AI\Project\tf_env\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-20 23:51:06,956 - INFO - Model 'best_model.keras' loaded successfully.
+2025-05-20 23:51:15,646 - INFO - Game started.
+2025-05-20 23:51:39,741 - INFO - Saved ROI: logs\debug_roi_20250520_235139_round1_conf0.97_paper.jpg
+2025-05-20 23:51:39,775 - INFO - Prediction raw: [[0.9740127  0.00120175 0.02478565]], Player chose: paper, Confidence: 0.9740
+2025-05-20 23:51:39,775 - INFO - Round 1 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-20 23:51:42,408 - INFO - Starting Round 2
+2025-05-20 23:51:46,002 - INFO - Saved ROI: logs\debug_roi_20250520_235145_round2_conf0.73_rock.jpg
+2025-05-20 23:51:46,003 - INFO - Prediction raw: [[0.11399844 0.7317607  0.15424089]], Player chose: rock, Confidence: 0.7318
+2025-05-20 23:51:46,003 - INFO - Round 2 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-20 23:52:33,007 - INFO - Starting Round 3
+2025-05-20 23:52:36,728 - INFO - Saved ROI: logs\debug_roi_20250520_235236_round3_conf0.68_unknown.jpg
+2025-05-20 23:52:36,729 - INFO - Prediction raw: [[0.31293496 0.6814345  0.00563053]], Player chose: unknown, Confidence: 0.6814
+2025-05-20 23:52:36,729 - INFO - Round 3 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-20 23:52:41,567 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-20 23:52:43,696 - INFO - New game started.
+2025-05-20 23:52:49,409 - INFO - Saved ROI: logs\debug_roi_20250520_235249_round1_conf0.99_scissors.jpg
+2025-05-20 23:52:49,410 - INFO - Prediction raw: [[9.2166187e-03 5.5110570e-05 9.9072826e-01]], Player chose: scissors, Confidence: 0.9907
+2025-05-20 23:52:49,410 - INFO - Round 1 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-20 23:52:51,360 - INFO - Starting Round 2
+2025-05-20 23:52:54,869 - INFO - Saved ROI: logs\debug_roi_20250520_235254_round2_conf0.92_paper.jpg
+2025-05-20 23:52:54,869 - INFO - Prediction raw: [[0.92445415 0.07120476 0.00434105]], Player chose: paper, Confidence: 0.9245
+2025-05-20 23:52:54,869 - INFO - Round 2 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-20 23:52:56,834 - INFO - Starting Round 3
+2025-05-20 23:53:00,458 - INFO - Saved ROI: logs\debug_roi_20250520_235300_round3_conf0.80_paper.jpg
+2025-05-20 23:53:00,458 - INFO - Prediction raw: [[7.9928416e-01 2.0061827e-01 9.7597018e-05]], Player chose: paper, Confidence: 0.7993
+2025-05-20 23:53:00,459 - INFO - Round 3 result: Player=paper, Computer=rock, Winner=Player
+2025-05-20 23:53:02,821 - INFO - Game finished. Final Score: Player 1, Computer 1
+2025-05-20 23:53:03,075 - INFO - New game started.
+2025-05-20 23:53:06,863 - INFO - Saved ROI: logs\debug_roi_20250520_235306_round1_conf1.00_rock.jpg
+2025-05-20 23:53:06,864 - INFO - Prediction raw: [[0.00191733 0.99576014 0.00232254]], Player chose: rock, Confidence: 0.9958
+2025-05-20 23:53:06,864 - INFO - Round 1 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-20 23:53:10,615 - INFO - Starting Round 2
+2025-05-20 23:53:15,058 - INFO - Saved ROI: logs\debug_roi_20250520_235315_round2_conf0.98_paper.jpg
+2025-05-20 23:53:15,060 - INFO - Prediction raw: [[0.9752667  0.00156921 0.02316416]], Player chose: paper, Confidence: 0.9753
+2025-05-20 23:53:15,082 - INFO - Round 2 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-20 23:53:19,095 - INFO - Starting Round 3
+2025-05-20 23:53:22,569 - INFO - Saved ROI: logs\debug_roi_20250520_235322_round3_conf1.00_scissors.jpg
+2025-05-20 23:53:22,570 - INFO - Prediction raw: [[9.5187919e-05 1.4103069e-04 9.9976379e-01]], Player chose: scissors, Confidence: 0.9998
+2025-05-20 23:53:22,570 - INFO - Round 3 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-20 23:53:25,054 - INFO - Game finished. Final Score: Player 0, Computer 1
+2025-05-20 23:53:25,375 - INFO - New game started.
+2025-05-20 23:53:29,179 - INFO - Saved ROI: logs\debug_roi_20250520_235329_round1_conf0.64_unknown.jpg
+2025-05-20 23:53:29,179 - INFO - Prediction raw: [[0.19339652 0.64091647 0.16568707]], Player chose: unknown, Confidence: 0.6409
+2025-05-20 23:53:29,179 - INFO - Round 1 result: Player=unknown, Computer=paper, Winner=Unknown - Retry
+2025-05-20 23:53:32,371 - INFO - Starting Round 2
+2025-05-20 23:53:35,099 - INFO - Saved ROI: logs\debug_roi_20250520_235335_round2_conf0.75_rock.jpg
+2025-05-20 23:53:35,100 - INFO - Prediction raw: [[0.24783581 0.75131017 0.00085397]], Player chose: rock, Confidence: 0.7513
+2025-05-20 23:53:35,100 - INFO - Round 2 result: Player=rock, Computer=rock, Winner=Draw
+2025-05-20 23:53:39,451 - INFO - Starting Round 3
+2025-05-20 23:53:44,949 - INFO - Saved ROI: logs\debug_roi_20250520_235344_round3_conf1.00_scissors.jpg
+2025-05-20 23:53:44,949 - INFO - Prediction raw: [[5.6281184e-05 5.3137515e-05 9.9989057e-01]], Player chose: scissors, Confidence: 0.9999
+2025-05-20 23:53:44,949 - INFO - Round 3 result: Player=scissors, Computer=scissors, Winner=Draw
+2025-05-20 23:53:47,282 - INFO - Game finished. Final Score: Player 0, Computer 0
+2025-05-20 23:53:47,976 - INFO - New game started.
+2025-05-20 23:54:21,214 - INFO - Saved ROI: logs\debug_roi_20250520_235421_round1_conf1.00_scissors.jpg
+2025-05-20 23:54:21,215 - INFO - Prediction raw: [[1.0726486e-06 5.9463662e-08 9.9999893e-01]], Player chose: scissors, Confidence: 1.0000
+2025-05-20 23:54:21,215 - INFO - Round 1 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-20 23:54:23,381 - INFO - Starting Round 2
+2025-05-20 23:54:26,872 - INFO - Saved ROI: logs\debug_roi_20250520_235426_round2_conf0.99_rock.jpg
+2025-05-20 23:54:26,872 - INFO - Prediction raw: [[1.3563058e-02 9.8619926e-01 2.3767911e-04]], Player chose: rock, Confidence: 0.9862
+2025-05-20 23:54:26,873 - INFO - Round 2 result: Player=rock, Computer=scissors, Winner=Player
+2025-05-20 23:54:29,340 - INFO - Starting Round 3
+2025-05-20 23:54:33,117 - INFO - Saved ROI: logs\debug_roi_20250520_235433_round3_conf0.89_paper.jpg
+2025-05-20 23:54:33,118 - INFO - Prediction raw: [[0.8921793  0.00200112 0.10581961]], Player chose: paper, Confidence: 0.8922
+2025-05-20 23:54:33,118 - INFO - Round 3 result: Player=paper, Computer=scissors, Winner=Computer
+2025-05-20 23:54:35,895 - INFO - Game finished. Final Score: Player 2, Computer 1
+2025-05-20 23:54:36,088 - INFO - New game started.
+2025-05-20 23:54:39,750 - INFO - Saved ROI: logs\debug_roi_20250520_235439_round1_conf1.00_scissors.jpg
+2025-05-20 23:54:39,751 - INFO - Prediction raw: [[1.6218348e-04 6.2496292e-05 9.9977535e-01]], Player chose: scissors, Confidence: 0.9998
+2025-05-20 23:54:39,751 - INFO - Round 1 result: Player=scissors, Computer=paper, Winner=Player
+2025-05-20 23:54:41,610 - INFO - Starting Round 2
+2025-05-20 23:54:45,113 - INFO - Saved ROI: logs\debug_roi_20250520_235445_round2_conf0.98_rock.jpg
+2025-05-20 23:54:45,113 - INFO - Prediction raw: [[0.01273958 0.9849748  0.00228562]], Player chose: rock, Confidence: 0.9850
+2025-05-20 23:54:45,114 - INFO - Round 2 result: Player=rock, Computer=paper, Winner=Computer
+2025-05-20 23:54:46,953 - INFO - Starting Round 3
+2025-05-20 23:54:50,494 - INFO - Saved ROI: logs\debug_roi_20250520_235450_round3_conf0.94_paper.jpg
+2025-05-20 23:54:50,495 - INFO - Prediction raw: [[9.4461370e-01 3.2965443e-04 5.5056702e-02]], Player chose: paper, Confidence: 0.9446
+2025-05-20 23:54:50,495 - INFO - Round 3 result: Player=paper, Computer=rock, Winner=Player
+2025-05-20 23:55:04,147 - INFO - Game finished. Final Score: Player 2, Computer 1
+2025-05-20 23:55:29,774 - INFO - Game quit by user.
+2025-05-20 23:55:30,188 - INFO - Application closed.
