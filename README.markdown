@@ -1,7 +1,7 @@
 # Rock Paper Scissors Game with Computer Vision
 
 ## Demo
-![Demo](demo.gif)
+![alt text](Demo.gif)
 
 This project implements a Rock Paper Scissors game where players can use their webcam to show hand gestures (rock, paper, or scissors), which are detected using a pre-trained convolutional neural network (CNN) based on MobileNetV2. The game is played against the computer, which randomly selects its move. The project includes two main scripts: one for training the model (`RockPaperScissorstrain.py`) and one for running the game (`RockPaperScissors.py`).
 
